@@ -7,9 +7,9 @@
         "Telegram Bot",
         "nexa userbot"
     ],
-    "website": "https://t.me/NexaBotsUpdates",
-    "repository": "https://github.com/Itz-fork/Nexa-Userbot",
-    "success_url": "https://t.me/NexaBotsUpdates",
+    "website": "https://t.me/TheArjvps",
+    "repository": "https://github.com/ThePro-CoderZ/Nexa-Userbot",
+    "success_url": "https://t.me/TheArjvpsChat",
     "env": {
         "APP_ID": {
             "description": "Your APP_ID from my.telegram.org",
