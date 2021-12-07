@@ -1,6 +1,5 @@
-# Copyright (c) 2021 Itz-fork
+# Copyright (c) 2021 ThePro-CoderZ
 # Part of: Nexa-Userbot
-# Credits: TheHamkerCat
 
 from io import BytesIO
 from aiohttp import ClientSession
