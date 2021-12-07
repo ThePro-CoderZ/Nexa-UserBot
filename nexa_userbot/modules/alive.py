@@ -1,6 +1,5 @@
-# Copyright (c) 2021 Itz-fork
+# Copyright (c) 2021 ThePro-CoderZ
 # Part of: Nexa-Userbot
-# Credits: Developers Userbot | Nexa Userbot
 
 import time
 import os
@@ -90,13 +89,14 @@ async def pyroalive(_, message: Message):
 
 **✨ Nexa UserBot is Alive**
     
-    **》 Nexa Userbot Version:** `{NEXAUB_VERSION}`
+    **》 Nexa Version:** `{NEXAUB_VERSION}`
     **》 Python Version:** `{python_version}`
     **》 Pyrogram Version:** `{pyrogram_version}`
-    **》 Uptime: `{uptime}`**
+    **》 Uptime:** `{uptime}`
+    **》 Support:** @TheArjvps
+    **》 #ThePro-CoderZ:** [Repository](https://github.com/ThePro-CoderZ/Nexa-Userbot)
 
-
-**Deploy Your Own: @NexaBotsUpdates**"""
+**Deploy Your Own: @TheArjvps**"""
     await alive_bef_msg.delete()
     await NEXAUB.send_photo(chat_id=message.chat.id, photo=alive_pic, caption=alive_msg)
 
