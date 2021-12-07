@@ -39,5 +39,5 @@ This repository is license under [GPL-3 License](https://github.com/ThePro-Coder
 
 <p align="center">
   </br></br>
-  <b>Copyright (c) 2021 - ThePro-CoderZ|Nexa Userbot</b>
+  <b>Copyright (c) 2021 - ThePro-CoderZ | Nexa Userbot</b>
 </p>
