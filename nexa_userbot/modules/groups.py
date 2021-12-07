@@ -1,4 +1,4 @@
-# Copyright (c) 2021 Itz-fork
+# Copyright (c) 2021 ThePro-Coderz
 # Part of: Nexa-Userbot
 import os
 import asyncio
