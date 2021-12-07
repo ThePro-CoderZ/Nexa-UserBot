@@ -13,7 +13,7 @@ Deployment is easy! Just [read the docs](https://nexaub.itz-fork.xyz/docs/get-st
 ### With Heroku
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ThePro-CoderZ/Nexa-Userbot)
 
-# Config Vars 📚,
+# Config Vars 📚
 ```
 - `APP_ID` - Your APP ID. Get it from [my.telegram.org](my.telegram.org)
 - `API_HASH` - Your API_HASH. Get it from [my.telegram.org](my.telegram.org)
