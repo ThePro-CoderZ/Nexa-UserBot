@@ -5,7 +5,7 @@ echo "
 
 Starting Now...
 
-Copyright (c) 2021 Itz-fork | @NexaBotsUpdates
+Copyright (c) 2021 Itz-fork | @TheArjvps
 "
 
 start_nexaub () {
