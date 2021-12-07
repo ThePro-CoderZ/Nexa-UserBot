@@ -13,7 +13,7 @@ async def check_or_set_log_channel():
         if al_log_channel:
             return [True, al_log_channel]
         else:
-            log_channel = await NEXAUB.create_channel(title="Nexa Userbot Logs!", description="Logs of your Nexa Userbot")
+            log_channel = await NEXAUB.create_channel(title="N𝚎𝚡𝚊 𝚄𝚜𝚎𝚛𝙱𝚘𝚝 𝙻𝚘𝚐𝚉", description="Logs of your Nexa Userbot")
             welcome_to_nexaub = f"""
 **Welcome to Nexa Userbot**
 Thanks for trying Nexa Userbot. If you found any error, bug or even a Feature Request please report it at **@TheArjvps**
