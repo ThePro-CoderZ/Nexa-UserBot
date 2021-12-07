@@ -13,9 +13,6 @@ Deployment is easy! Just [read the docs](https://nexaub.itz-fork.xyz/docs/get-st
 ### With Heroku
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ThePro-CoderZ/Nexa-Userbot)
 
-### With VPS (Local)
-Please Read the [Docs](https://nexaub.itz-fork.xyz/docs/get-started/installation/#with-vps-local).
-
 # Config Vars 📚,
 ```
 - `APP_ID` - Your APP ID. Get it from [my.telegram.org](my.telegram.org)
@@ -36,8 +33,3 @@ Read more about config vars at [Docs](https://nexaub.itz-fork.xyz/docs/get-start
 
 # License
 This repository is license under [GPL-3 License](https://github.com/ThePro-CoderZ/Nexa-Userbot/blob/master/LICENSE)
-
-<p align="center">
-  </br></br>
-  <b>Nexa Userbot / Copyright (c) 2021 / ThePro-CoderZ</b>
-</p>
