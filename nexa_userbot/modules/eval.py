@@ -1,6 +1,5 @@
-# Copyright (c) 2021 Itz-fork
+# Copyright (c) 2021 ThePro-CoderZ
 # Part of: Nexa-Userbot
-# Credits: Developers Userbot
 
 import traceback
 import sys
