@@ -1,6 +1,5 @@
-# Copyright (c) 2021 Itz-fork
+# Copyright (c) 2021 ThePro-CoderZ
 # Part of: Nexa-Userbot
-# Credits: Friday Userbot | DevsExpo
 
 import asyncio
 import math
