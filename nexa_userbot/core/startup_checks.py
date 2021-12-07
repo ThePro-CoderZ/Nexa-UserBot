@@ -16,7 +16,7 @@ async def check_or_set_log_channel():
             log_channel = await NEXAUB.create_channel(title="Nexa Userbot Logs", description="Logs of your Nexa Userbot")
             welcome_to_nexaub = f"""
 **Welcome to Nexa Userbot**
-Thanks for trying Nexa Userbot. If you found any error, bug or even a Feature Request please report it at **@NexaUB_Support**
+Thanks for trying Nexa Userbot. If you found any error, bug or even a Feature Request please report it at **@TheArjvps**
 
 **⌲ Quick Start,**
 If you don't know how to use this Userbot please send `{Config.CMD_PREFIX}help` in any chat. It'll show all plugins your userbot has. You can use those plugin names to get info about how to use it. Also check out [Docs](https://nexaub.itz-fork.xyz/)
