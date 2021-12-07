@@ -1,6 +1,5 @@
-# Copyright (c) 2021 Itz-fork
+# Copyright (c) 2021 ThePro-CoderZ
 # Part of: Nexa-Userbot
-# Thanks to: Friday Userbot for idea / trick
 
 import os
 import requests
