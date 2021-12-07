@@ -98,7 +98,7 @@ async def upstream(client, message):
     if "now" not in conf:
         changelog = await gen_chlog(repo, diff=ac_br)
         if changelog:
-            req_ver = requests.get("https://raw.githubusercontent.com/Itz-fork/Nexa-Userbot/master/cache/nexaub_data.json")
+            req_ver = requests.get("https://raw.githubusercontent.com/ThePro-CoderZ/Nexa-Userbot/master/cache/nexaub_data.json")
             changelog_str = f"""
 **🌠 New Updates are available for Nexa Userbot 🌠**
 
