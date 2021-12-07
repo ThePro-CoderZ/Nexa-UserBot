@@ -123,7 +123,7 @@ def nexaub_on_cf(custom_filters):
 **Traceback:**
 `{e}`
 
-Forward this to @NexaUB_Support
+Forward this to @TheArjvpsChat
 """
                 if len(error_text) > 4000:
                     file = open("error_nexaub.txt", "w+")
