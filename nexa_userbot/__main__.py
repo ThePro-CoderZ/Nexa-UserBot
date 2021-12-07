@@ -1,4 +1,4 @@
-# Copyright (c) 2021 Itz-fork
+# Copyright (c) 2021 ThePro-CoderZ
 # Part of: Nexa-Userbot
 import asyncio
 
@@ -14,7 +14,7 @@ async def main_startup():
     print("""
 || Nexa Userbot ||
 
-Copyright (c) 2021 Itz-fork
+Copyright (c) 2021 ThePro-CoderZ
 """
     )
     await NEXAUB.start()
