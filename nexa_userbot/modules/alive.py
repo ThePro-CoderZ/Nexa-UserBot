@@ -83,20 +83,20 @@ async def pyroalive(_, message: Message):
     get_alive_pic = await get_custom_var(var="ALIVE_PIC")
     alive_pic = get_alive_pic if get_alive_pic else "cache/NEXAUB.png"
     NEXAUB_VERSION = get_nexaub_version()
-    alive_msg = f"""
-**{custom_alive_msg}**
-
-
-**✨ Nexa UserBot is Alive**
+alive_msg = f"""
+    **{custom_alive_msg}**   
+    **✨ Nexa UserBot is Alive**
     
+
+         ----System Information----   
     **》 Nexa Version:** `{NEXAUB_VERSION}`
     **》 Python Version:** `{python_version}`
     **》 Pyrogram Version:** `{pyrogram_version}`
     **》 Uptime:** `{uptime}`
     **》 Support:** @TheArjvps
     **》 #ThePro-CoderZ:** [Repository](https://github.com/ThePro-CoderZ/Nexa-Userbot)
-
-**Deploy Your Own: @TheArjvps**"""
+         ----------------------------
+"""
     await alive_bef_msg.delete()
     await NEXAUB.send_photo(chat_id=message.chat.id, photo=alive_pic, caption=alive_msg)
 
