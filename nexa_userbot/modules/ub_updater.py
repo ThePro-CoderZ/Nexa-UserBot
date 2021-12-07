@@ -1,6 +1,5 @@
 # Copyright (c) 2021 ThePro-CoderZ
 # Part of: Nexa-Userbot
-# Credits: Nexa Userbot | Zect Userbot
 
 import asyncio
 import sys
@@ -33,7 +32,7 @@ CMD_HELP.update(
 
 mod_file = os.path.basename(__file__)
 
-UPSTREAM_REPO_URL = "https://github.com/Itz-fork/Nexa-Userbot"
+UPSTREAM_REPO_URL = "https://github.com/ThePro-CoderZ/Nexa-Userbot"
 requirements_path = path.join(
     path.dirname(path.dirname(path.dirname(__file__))), "requirements.txt"
 )
