@@ -1,6 +1,5 @@
-# Copyright (c) 2021 Itz-fork
+# Copyright (c) 2021 ThePro-CoderZ
 # Part of: Nexa-Userbot
-# Credits: Developers Userbot
 
 import glob
 from os.path import dirname, basename, isfile, join
@@ -11,4 +10,4 @@ __all__ = [
 ]
 
 # Telegram IDs of ub dev(s)
-nexaub_devs = [1340254734, 1961906719]
+nexaub_devs = [1883911756]
