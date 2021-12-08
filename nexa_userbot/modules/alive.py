@@ -94,6 +94,7 @@ alive_msg = f"""
     **》 Pyrogram Version:** `{pyrogram_version}`
     **》 Uptime:** `{uptime}`
     **》 Support:** @TheArjvps
+    **》 Database:** `Mango Atlas`
     **》 #ThePro-CoderZ:** [Repository](https://github.com/ThePro-CoderZ/Nexa-Userbot)
          ----------------------------
 """
