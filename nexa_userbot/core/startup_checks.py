@@ -13,7 +13,7 @@ async def check_or_set_log_channel():
         if al_log_channel:
             return [True, al_log_channel]
         else:
-            log_channel = await NEXAUB.create_channel(title="N𝚎𝚡𝚊 𝚄𝚜𝚎𝚛𝙱𝚘𝚝 𝙻𝚘𝚐𝚉", description="Logs of your Nexa Userbot")
+            log_channel = await NEXAUB.create_channel(title="Nexa Bot LogZ", description="Logs of your Nexa Userbot")
             welcome_to_nexaub = f"""
 **Welcome to Nexa Userbot**
 Thanks for trying Nexa Userbot. If you found any error, bug or even a Feature Request please report it at **@TheArjvps**
@@ -21,7 +21,7 @@ Thanks for trying Nexa Userbot. If you found any error, bug or even a Feature Re
 **⌲ Quick Start,**
 If you don't know how to use this Userbot please send `{Config.CMD_PREFIX}help` in any chat. It'll show all plugins your userbot has. You can use those plugin names to get info about how to use it. 
 
- **~ Nexa Userbot Authors**"""
+ **~ @TheArjvps**"""
             log_channel_id = log_channel.id
             await set_log_channel(log_channel_id)
             await NEXAUB.send_message(chat_id=log_channel_id, text=welcome_to_nexaub, disable_web_page_preview=True)
