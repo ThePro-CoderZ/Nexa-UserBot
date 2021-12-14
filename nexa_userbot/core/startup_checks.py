@@ -23,7 +23,7 @@ If you don't know how to use this Userbot please send `{Config.CMD_PREFIX}help` 
             await NEXAUB.send_message(chat_id=log_channel_id, text=welcome_to_nexaub, disable_web_page_preview=True)
             return [True, log_channel_id]
     except Exception as e:
-        print(f"Error \n\n{e} \n\nPlease check all variables and try again! \nReport this with logs at @NexaUB_Support if the problem persists!")
+        print(f"Error \n\n{e} \n\nPlease check all variables and try again! \nReport this with logs at @TheArjvps if the problem persists!")
         exit()
 
 
