@@ -81,7 +81,7 @@ async def pyroalive(_, message: Message):
     custom_alive_msg = get_alive_msg if get_alive_msg else "Heya, I'm Using Nexa Userbot"
     # Alive Pic
     get_alive_pic = await get_custom_var(var="ALIVE_PIC")
-    alive_pic = get_alive_pic if get_alive_pic else "cache/NEXAUB.png"
+    alive_pic = get_alive_pic if get_alive_pic else "cache/NexaBoi.png"
     NEXAUB_VERSION = get_nexaub_version()
     alive_msg = f"""
         **{custom_alive_msg}**
