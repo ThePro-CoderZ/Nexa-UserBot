@@ -84,17 +84,19 @@ async def pyroalive(_, message: Message):
     alive_pic = get_alive_pic if get_alive_pic else "cache/NexaBoi.png"
     NEXAUB_VERSION = get_nexaub_version()
     alive_msg = f"""
-        **{custom_alive_msg}**
-     **Nexa UserBot is Online 🔥**
+      》 **{custom_alive_msg}**
+      • Usᴇʀʙᴏᴛ Is: OɴʟIɴᴇ
 
-         =====System Information=====  
-    **》 Nexa Version:** `{NEXAUB_VERSION}`
-    **》 Python Version:** `{python_version}`
-    **》 Pyrogram Version:** `{pyrogram_version}`
-    **》 Uptime:** `{uptime}`
-    **》 Support:** @TheArjvps
-    **》 Database:** `Mango Atlas`
-    **》 #TheProCoderZ:** [Repository](https://github.com/ThePro-CoderZ/Nexa-Userbot)
+         =====Sʏsᴛᴇᴍ Iɴғᴏʀᴍᴀᴛiᴏɴ=====  
+    **• Nᴇxᴀ Vᴇʀsiᴏɴ:** `{NEXAUB_VERSION}`
+    **• Pʏᴛʜᴏɴ:** `{python_version}`
+    **• Pʏʀᴏɢʀᴀᴍ:** `{pyrogram_version}`
+    **• Uᴘᴛiᴍᴇ:** `{uptime}`
+    **• Sᴜᴘᴘᴏʀᴛ:** @TheArjvps
+    **• Dᴀᴛᴀʙᴀsᴇ:** `Mango Atlas`
+    **• Dᴀᴛᴀʙᴀsᴇ Sᴛᴀᴛᴜs:** `Fᴜɴᴄᴛɪᴏɴᴀʟ`
+    **• Cᴜʀʀᴇɴᴛ Bʀᴀɴᴄʜ:** `Mᴀsᴛᴇʀ`
+    **• Hᴇʀᴏᴋᴜ Dᴀᴛᴀʙᴀsᴇ:** `AWS`
          ============================
 """
     await alive_bef_msg.delete()
