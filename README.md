@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <a href="#"><img src="https://telegra.ph//file/5728259fff312a4fb9ba6.jpg" width="720" height="1280"></a> </br>
+  <a href="#"><img src="https://telegra.ph//file/5728259fff312a4fb9ba6.jpg" width="100" height="200"></a> </br>
   <b>A Simple, Easy to use and light-weight Pyrogram Userbot</b>
 </p>
 
