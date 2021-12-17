@@ -18,10 +18,10 @@ CMD_HELP.update(
     {
         "std": f"""
 **Afk,**
-  ✘ `std` - To Activate Afk Module
+  ✘ `std` - To Activate Study Module
 **Example:**
   ✘ `std`,
-   ⤷ Send with reason = `{Config.CMD_PREFIX}afk <Exam\Test>`
+   ⤷ Send with reason = `{Config.CMD_PREFIX}std <Exam\Test>`
 """
     }
 )
