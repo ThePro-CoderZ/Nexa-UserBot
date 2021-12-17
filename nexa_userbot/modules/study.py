@@ -21,7 +21,7 @@ CMD_HELP.update(
   ✘ `std` - To Activate Study Module
 **Example:**
   ✘ `std`,
-   ⤷ Send with reason = `{Config.CMD_PREFIX}std <Exam\Test>`
+   ⤷ Send with reason = `{Config.CMD_PREFIX}std` Exam\Test
 """
     }
 )
