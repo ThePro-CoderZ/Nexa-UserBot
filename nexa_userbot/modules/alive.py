@@ -105,7 +105,7 @@ async def pyroalive(_, message: Message):
 # Ping
 @nexaub_on_cmd(command="ping", modlue=mod_file)
 async def pingme(_, message: Message):
-    ping_msg = await e_or_r(nexaub_message=message, msg_text="🅿︎🄾🄽🄶 \nUᴘᴛiᴍᴇ》 `{uptime}`")
+    ping_msg = await e_or_r(nexaub_message=message, msg_text="🅿︎🄾🄽🄶 \nUᴘᴛiᴍᴇ》 `0.3ms`")
     start = datetime.now()
     end = datetime.now()
     ping_time = (end - start).microseconds / 1000
