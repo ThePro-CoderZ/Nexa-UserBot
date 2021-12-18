@@ -28,51 +28,51 @@ CMD_HELP.update(
 
 mod_file = os.path.basename(__file__)
 
-# Check if afk
+# Check if Studing!
 async def u_afk_bro(filter, client, message):
-    if_afk = await get_afk()
-    if if_afk:
+    if_std = await get_std()
+    if if_std:
         return True
     else:
         return False
 
 # Creating a custom filter
-ya_afk = filters.create(func=u_afk_bro, name="is_ya_afk")
+ya_std = filters.create(func=u_std_bro, name="is_ya_std")
 
 
 @nexaub_on_cmd(command="std", modlue=mod_file)
 async def me_goin_oflin(_, message: Message):
-    afk_msg = await e_or_r(nexaub_message=message, msg_text="`Processing...`")
-    afk_reason = get_arg(message)
-    if not afk_reason:
-        afk_reason = "I'm Busy For Now! Will Come Online Later :)"
-    afk_time = datetime.now().replace(microsecond=0)
-    await me_afk(afk_time=afk_time, afk_reason=afk_reason)
-    await afk_msg.edit(f"**I'm Going to study** \n\n**Reason:** `{afk_reason}`")
+    std_msg = await e_or_r(nexaub_message=message, msg_text="`Processing...`")
+    std_reason = get_arg(message)
+    if not std_reason:
+        std_reason = "I'm Bust in Study! Will Come Online Later :)"
+    std_time = datetime.now().replace(microsecond=0)
+    await me_std(std_time=std_time, std_reason=std_reason)
+    await std_msg.edit(f"**I'm Going to study** \n\n**Reason:** `{afk_reason}`")
 
 @nexaub_on_cf(
-    ya_afk
+    ya_std
     & (filters.mentioned | filters.private)
     & ~filters.me
     & ~filters.edited
     & filters.incoming)
-async def me_afk_tho(_, message: Message):
+async def me_std_tho(_, message: Message):
     if not message:
         return
     if not message.from_user:
         return
-    s_time, a_reason = await get_afk()
+    s_time, a_reason = await get_std()
     now_time = datetime.now().replace(microsecond=0)
-    afk_time = str((now_time - s_time))
-    await message.reply(f"**I'm Studing** \n\n**Last Online:** `{afk_time}` \n**Reason:** `{a_reason}`")
+    std_time = str((now_time - s_time))
+    await message.reply(f"**I'm Studing** \n\n**Last Online:** `{std_time}` \n**Reason:** `{a_reason}`")
 
 @nexaub_on_cf(
     filters.me
     & filters.outgoing
-    & ya_afk
+    & ya_std
 )
 async def back_online_bois(_, message: Message):
-    s_time, a_reason = await get_afk()
+    s_time, a_reason = await get_std()
     com_online = datetime.now().replace(microsecond=0)
     afk_time = str((com_online - s_time))
     await me_online()
