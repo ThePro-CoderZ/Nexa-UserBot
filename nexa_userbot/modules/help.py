@@ -16,7 +16,7 @@ HELP.update(
         "**👨‍💻 Dev**": "`eval`",
         "**🗂 Modules**": "`paste`, `short_url`, `search`, `pictools`, `extractor`, `megatools`, `arq`, `telegraph`, `cloud`",
         "**📂 Utils**": "`stickers`, `owner`, `sudos`, `afk`, `globals`, `groups`",
-        "**💬 Quotes** \nNote:- These are direct Commands! NO NEED TO DO HELP! \n""`ask`, `tell`, `gn`, `gm`, `chat`, `wow`, `cool`",
+        "**💬 Quotes"**: "`ask`, `tell`, `gn`, `gm`, `chat`, `wow`, `cool`",
         "\n**Usage**": "`.help` [module_name]"
     }
 )
