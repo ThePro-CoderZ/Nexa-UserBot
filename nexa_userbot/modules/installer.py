@@ -25,7 +25,7 @@ CMD_HELP.update(
    ⤷ Reply to pyrogram module made by Nexa UB Author with `{Config.CMD_PREFIX}install`
 
 
-**Note:** `All Official Plugins are available at` **@NexaUBPlugins**! `Please don't install unofficial Plugins!`
+**Note:** `All Official Plugins are available at` **@TheArjvps**! `Please don't install unofficial Plugins!`
 """
     }
 )
