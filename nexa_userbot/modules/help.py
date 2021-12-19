@@ -12,11 +12,12 @@ from nexa_userbot.core.main_cmd import nexaub_on_cmd, e_or_r
 # Help
 HELP.update(
     {
-        "** Userbot**": "`alive`, `installer`, `updater`",
-        "** Dev**": "`eval`",
-        "** Tools**": "`paste`, `short_url`, `search`, `pictools`, `extractor`, `megatools`, `arq`, `telegraph`, `cloud`",
-        "**🗂 Utils**": "`stickers`, `owner`, `sudos`, `afk`, `globals`, `groups`",
-        "\n**Usage**": "`.help [module_name]`"
+        "**⚡ Userbot**": "`alive`, `installer`, `updater`",
+        "**👨‍💻 Dev**": "`eval`",
+        "**🗂 Modules**": "`paste`, `short_url`, `search`, `pictools`, `extractor`, `megatools`, `arq`, `telegraph`, `cloud`",
+        "**📂 Utils**": "`stickers`, `owner`, `sudos`, `afk`, `globals`, `groups`",
+        "**💬 Quotes** \nNote:- These are direct Commands! NO NEED TO DO HELP! \n""`ask`, `tell`, `gn`, `gm`, `chat`, `wow`, `cool`",
+        "\n**Usage**": "`.help` [module_name]"
     }
 )
 
