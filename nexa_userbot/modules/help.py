@@ -12,9 +12,9 @@ from nexa_userbot.core.main_cmd import nexaub_on_cmd, e_or_r
 # Help
 HELP.update(
     {
-        "**⚡ Userbot**": "`alive`, `installer`, `updater`",
+        "**⚡ Userbot**": "`alive`, `installer`, `updater`, `repo`",
         "**👨‍💻 Dev**": "`eval`",
-        "**🗂 Modules**": "`paste`, `short_url`, `search`, `pictools`, `extractor`, `megatools`, `arq`, `telegraph`, `cloud`, `tell`, `ask`, `chat`, `wow`, `gn`, `gm`, `cool`",
+        "**🗂 Modules**": "`paste`, `short_url`, `search`, `pictools`, `extractor`, `megatools`, `arq`, `telegraph`, `cloud`, `tell`, `ask`, `chat`, `wow`, `gn`, `gm`, `cool`,`hi`",
         "**📂 Database**": "`stickers`, `owner`, `sudos`, `afk`, `globals`, `groups`",
         "\n**Usage**": "`.help` [module_name]"
     }
