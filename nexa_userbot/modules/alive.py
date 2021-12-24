@@ -103,13 +103,13 @@ async def pyroalive(_, message: Message):
     await NEXAUB.send_photo(chat_id=message.chat.id, photo=alive_pic, caption=alive_msg)
 
 # Ping
-@nexaub_on_cmd(command="ping", modlue=mod_file)
+@nexaub_on_cmd(command=["ping"], modlue=mod_file)
 async def pingme(_, message: Message):
-    ping_msg = await e_or_r(nexaub_message=message, msg_text="🅿︎🄾🄽🄶 \nUᴘᴛiᴍᴇ》 `0.3ms`")
+    ping_msg = await e_or_r(nexaub_message=message, msg_text="`Processing...`")
     start = datetime.now()
     end = datetime.now()
     ping_time = (end - start).microseconds / 1000
-    await ping_msg.edit(nexaub_message=message, msg_text=f"**Pong:** `{ping_time} ms`", disable_web_page_preview=True)
+    await ping_msg.edit(f"**Pong:** `{ping_time} ms` \n\n ~ **✨ Nexa-Userbot**", disable_web_page_preview=True)
 
 # Set custom alive message
 @nexaub_on_cmd(command="setalive", modlue=mod_file)
